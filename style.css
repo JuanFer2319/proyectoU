@@ -1,0 +1,5 @@
+*{   /*para cambiar todo l oque esta dentro de ella*/
+    margin:0; /*agrega las margenes a la pagina*/ 
+    padding:0; /* espacio entre el contenido del elemento y su borde*/
+    font-family: 'open sans ', sans-serif; /*tipo de letra */   
+}
