@@ -3,3 +3,56 @@
     padding:0; /* espacio entre el contenido del elemento y su borde*/
     font-family: 'open sans ', sans-serif; /*tipo de letra */   
 }
+.contenedor {
+    border: solid ipx black;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box; /* es usada para dimensionar los elementos que existan en la clase*/
+    overflow: hidden;/* permite que ver a atraves de bloques 
+    o con barras de desplazamiento para evitar que el contenido secorte.*/
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 220px;
+}
+.cabecera img {
+    width: 100px; /* especifica la anchura del contenido*/
+}
+.cabecera_h1{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+.cabecera_frase{
+    position: absolute;
+    top: 70px;
+    left: 235px;
+}
+.nav{
+    margin: 10px 10px 0 0;
+    position: absolute;
+    background: none;
+    top: 5px;
+    left: 700px;
+}
+.nav_link_1{
+    background: #008899;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.nav_link_2{
+    background: #008899;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.nav_link_3{
+    background: #008899;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
